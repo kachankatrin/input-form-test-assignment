@@ -1,0 +1,45 @@
+.button-container {
+  position: relative;
+  height: 57px;
+  &:hover, button:hover {
+    &.default {
+      background: #0451D2;
+    }
+  }
+  button {
+    // position: absolute;
+    // border-radius: 8px;
+    // border: none;
+    // width: 100%;
+    // height: 54px;
+    // color: white;
+    // font-size: 16px;
+    // z-index: 10;
+    // &:active {
+    //   .default {
+    //     background: #065BEA;
+    //   }
+    //   .button-shadow {
+    //     background: rgba(6, 91, 234, 0.5);
+    //   }
+    // }
+    // &.disabled {
+    //   background: #C6D0E0;
+    // }
+    // &.default {
+    //   background: #065BEA;
+    // }
+  }
+  .button-shadow {
+    position: absolute;
+    height: 26px;
+    left: 4.52%;
+    right: 4.29%;
+    top: 54.39%;
+    bottom: 0%;
+    background: #065BEA;
+    opacity: 0.83;
+    filter: blur(40px);
+    border-radius: 8px;
+  }
+}

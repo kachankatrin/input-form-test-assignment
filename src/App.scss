@@ -1,0 +1,79 @@
+@import './style/scss/carousel.scss';
+@import './style/scss/variables.scss';
+@import './style/scss/button.scss';
+@import './style/scss/footer.scss';
+@import './style/scss/signin-page.scss';
+@import './style/scss/input.scss';
+
+* {
+  font-family: Montserrat;
+}
+
+
+.svg-background {
+  position: absolute;
+  top: $padding;
+  left: $padding;
+}
+p, a, li, label {
+  font-size: 14px;
+  font-weight: 600;
+}
+a {
+  color: #065BEA;
+  &:hover {
+    color: #0A4AB6;
+  }
+}
+label {
+  margin-bottom: 14px !important;
+}
+h1 {
+  font-size: 28px !important;
+  font-weight: 700 !important;
+}
+h2 {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+.default-link {
+  color: #75777A;
+  &:hover {
+    color: #333333;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .sign-in-page {
+    flex-direction: column;
+    .carousel-container {
+      height: $height;
+      .carousel-inner {
+        .carousel-item {
+          .img-container {
+            img {
+              width: 90%;
+            }
+          }
+          .carousel-caption {
+            margin-top: 80%;
+          }
+        }
+      }
+    }
+    .sign-in-block {
+      padding: 30px;
+      .sign-in-form {
+        margin-bottom: 60px;
+        .sign-in-form-header {
+          margin-top: 30px;
+        }
+      }
+      .footer-list {
+        width: 100%;
+        justify-content: space-evenly;
+      }
+    }
+  }
+  
+}
