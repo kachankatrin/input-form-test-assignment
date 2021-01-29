@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
+# Description
 This project contains sign in page made as a test assignment. See documentation below on how to run this project.
+Here is a [demo](https://input-form-test-assignment.vercel.app/) of a project
 
 ## Available Scripts
 
